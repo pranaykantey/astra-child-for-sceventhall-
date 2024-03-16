@@ -1,0 +1,162 @@
+.alert.alert-success {
+	background: #6bae33;
+	padding: 10px 10px;
+	font-size: 13px;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.alert.alert-danger {
+	background: #df3f3f;
+	padding: 10px 10px;
+	font-size: 13px;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.ui-datepicker td {
+    border: 1px solid #CCC;
+    padding: 0;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+    border: solid #FFF;
+    border-width: 1px 0 0 1px;
+}
+
+/* new style  */
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+	border: 1px solid #eaeaea !important;
+	background: #ffffff !important;
+	font-weight: normal !important;
+	color: #000000 !important;
+}
+
+/* colors userd 
+	#A62B1F
+	#193C40
+*/
+
+/* astra header style  */
+.ast-theme-transparent-header .ast-above-header, .ast-theme-transparent-header .ast-above-header.ast-above-header-bar {
+	background-image: none;
+	background-color: #193C40 !important; 
+}
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #193c40a8; 
+} 
+
+/**
+*	Appointment page style
+*/
+
+.appointment-conainer .row {
+	margin-bottom: 25px;
+}
+.appointment-conainer .row .half input {
+	padding: 11px 10px;
+}
+.appointment-form {
+	padding: 15px 0;
+	width: 100%;
+	display: block;
+
+}
+.appointment-conainer {
+	max-width: 600px;
+	margin: auto;
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+.half {
+	width: 48%;
+}
+.half:nth-child(1) {
+	margin-right: 2%;
+}
+.half:nth-child(2) {
+	margin-left: 2%;
+}
+.full {
+	width: 100%;
+}
+.half input,
+.full input {
+	width: 100%;
+	display: inline-block;
+}
+.half h6 {
+	margin-bottom: 4px;
+}
+/* appointment button style  */
+.button.button-prmary.btn.btn-primary.d-inline-block.appointment-ajax-button {
+	display: inline-block;
+	margin-top: 17px;
+	border: 2px solid #df3f3f;
+}
+.button.button-prmary.btn.btn-primary.d-inline-block.appointment-ajax-button:hover {
+	background-color: #ffffff;
+	color: #df3f3f;
+	cursor: pointer;
+}
+
+.elementor-540 .elementor-element.elementor-element-fdda768 .eael-post-elements-readmore-btn {
+	padding: 11px 35px;
+	margin-left: auto;
+	display: block;
+	max-width: 166px;
+	border: 2px solid #df3f3f;
+	line-height: 1.6em;
+}
+.elementor-540 .elementor-element.elementor-element-fdda768 .eael-post-elements-readmore-btn:hover {
+	background-color: #ffffff;
+	color: #df3f3f;
+}
+/* 
+.eael-entry-wrapper .eael-entry-content .eael-grid-post-excerpt .eael-post-elements-readmore-btn {
+*/
+
+/* forminator form */
+#forminator-module-1304 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#forminator-module-1304 > .forminator-row {
+	width: 48%;
+}
+#forminator-module-1304 > .forminator-row.item-class-0 {
+	width: 100% !important;
+}
+#forminator-module-1304 .forminator-row.forminator-no-margin.item-class-1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#forminator-module-1304 .forminator-col.forminator-col-md-6 {
+	width: 48%;
+}
+#forminator-module-1304 .forminator-row.forminator-row-last {
+	width: 100% !important;
+}
+
+/* hide appintment post types  */
+/* #menu-posts-appointments_booking {
+	display: none;
+} */
+
+.forminator-ui#forminator-module-1304.forminator-design--flat .forminator-button-submit {
+	color: #FFFFFF;
+	background-color: #df3f3f !important;
+	border-radius: 25px;
+	padding: 10px 25px;
+	font-weight: bold;
+}
