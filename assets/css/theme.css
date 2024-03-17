@@ -45,13 +45,22 @@
 	background-image: none;
 	background-color: #193C40 !important; 
 }
+.ast-above-header-bar.ast-above-header.site-header-focus-item {
+	background-color: #193C40;
+}
 .sticky {
 	position: fixed;
 	top: 0;
 	width: 100%;
 	background-color: #193c40a8; 
 } 
-
+.sticky .ast-primary-header-bar.ast-primary-header.main-header-bar.site-header-focus-item {
+	background-color: #193c40a8; 
+}
+.single-post .content-area {
+	background: white;
+	padding: 40px 60px !important;
+}
 /**
 *	Appointment page style
 */
@@ -159,4 +168,11 @@
 	border-radius: 25px;
 	padding: 10px 25px;
 	font-weight: bold;
+}
+
+
+/* menu style  */
+.main-navigation .menu-item .menu-link:hover,
+.main-navigation .menu-item.current_page_item .menu-link {
+	color: red !important;
 }
