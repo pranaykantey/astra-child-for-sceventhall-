@@ -61,6 +61,18 @@
 	background: white;
 	padding: 40px 60px !important;
 }
+.ast-primary-header-bar.ast-primary-header.main-header-bar.site-header-focus-item {
+	background-color: #193c40a8; 
+}
+
+/* menu style  */
+.main-navigation .menu-item .menu-link:hover,
+.main-navigation .menu-item.current_page_item .menu-link {
+	color: red !important;
+}
+.sticky .main-navigation .menu-item .menu-link {
+	color: #ffffff;
+}
 /**
 *	Appointment page style
 */
@@ -170,9 +182,3 @@
 	font-weight: bold;
 }
 
-
-/* menu style  */
-.main-navigation .menu-item .menu-link:hover,
-.main-navigation .menu-item.current_page_item .menu-link {
-	color: red !important;
-}
