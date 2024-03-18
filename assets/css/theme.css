@@ -73,6 +73,16 @@
 .sticky .main-navigation .menu-item .menu-link {
 	color: #ffffff;
 }
+
+/* blog style  */
+.blog .content-area {
+	max-width: 1200px;
+	margin: 30px auto !important;
+}
+
+.blog .ast-primary-header-bar.ast-primary-header.main-header-bar.site-header-focus-item {
+	background-color: #193c40a8; 
+}
 /**
 *	Appointment page style
 */
